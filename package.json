@@ -1,0 +1,35 @@
+{
+  "name": "forkfy__2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nonota7788/forkiry__2.git"
+  },
+  "author": "nonota7788",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nonota7788/forkiry__2/issues"
+  },
+  "homepage": "https://github.com/nonota7788/forkiry__2#readme",
+  "devDependencies": {
+    "@babel/core": "^7.8.6",
+    "@babel/preset-env": "^7.8.6",
+    "babel-loader": "^8.0.6",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "core-js": "^3.6.4",
+    "regenerator-runtime": "^0.13.3"
+  }
+}
